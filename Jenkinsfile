@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GITHUB_URL = 'https://github.com/singleb2/metallb-deploy.git'  // <---- Change this to match your cloned repository
-        KUBECONFIG = credentials('cit-singleb2')   // <---- Change this to match your kubernetes cluster credentials
+        KUBECONFIG = credentials('singleb2-225')   // <---- Change this to match your kubernetes cluster credentials
     }
 
     stages {
